@@ -13,6 +13,8 @@
 		A8E51C7B25D88831000509FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E51C6625D88830000509FC /* ContentView.swift */; };
 		A8E51C7C25D88831000509FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E51C6725D88830000509FC /* Assets.xcassets */; };
 		A8E51C7D25D88831000509FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E51C6725D88830000509FC /* Assets.xcassets */; };
+		A8E51C8925D88853000509FC /* PieceOfPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E51C8825D88853000509FC /* PieceOfPie.swift */; };
+		A8E51C8A25D88853000509FC /* PieceOfPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E51C8825D88853000509FC /* PieceOfPie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		A8E51C7425D88831000509FC /* PieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E51C7625D88831000509FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8E51C7725D88831000509FC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A8E51C8825D88853000509FC /* PieceOfPie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceOfPie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				A8E51C6525D88830000509FC /* PieChartApp.swift */,
 				A8E51C6625D88830000509FC /* ContentView.swift */,
 				A8E51C6725D88830000509FC /* Assets.xcassets */,
+				A8E51C8825D88853000509FC /* PieceOfPie.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8E51C7A25D88831000509FC /* ContentView.swift in Sources */,
+				A8E51C8925D88853000509FC /* PieceOfPie.swift in Sources */,
 				A8E51C7825D88831000509FC /* PieChartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8E51C7B25D88831000509FC /* ContentView.swift in Sources */,
+				A8E51C8A25D88853000509FC /* PieceOfPie.swift in Sources */,
 				A8E51C7925D88831000509FC /* PieChartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
